@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-cudnn5-devel			
+FROM ubuntu:latest		
 
 # Use mirror(JAIST) for apt-get
 # RUN sed -i'~' -E "s@http://(..\.)?(archive|security)\.ubuntu\.com/ubuntu@http://ftp.jaist.ac.jp/pub/Linux/ubuntu@g" /etc/apt/sources.list
