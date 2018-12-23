@@ -5,8 +5,7 @@ ENV HOME /home/developer
 WORKDIR /home/developer
 
 # Download and Install DLIB
-RUN cd ~ && \
-    git clone https://github.com/davisking/dlib.git && \
+RUN git clone https://github.com/davisking/dlib.git && \
     cd dlib && \
     git checkout v19.16 && \
     git submodule init && \
